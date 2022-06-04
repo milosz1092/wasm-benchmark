@@ -1,0 +1,22 @@
+{
+  "name": "wasm-benchmark",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "author": "milosz1092",
+  "license": "ISC",
+  "staticFiles": {
+    "staticPath": "src/static"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.1"
+  },
+  "dependencies": {
+    "xxhashjs": "^0.2.2"
+  }
+}
