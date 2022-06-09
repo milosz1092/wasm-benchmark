@@ -20,7 +20,7 @@ Including new methods is partialy dynamic.
 
 ### Rust
 
-***Prequsites:** [Rust](https://www.rust-lang.org/tools/install) and [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/) installed.*
+***Prerequisites:** [Rust](https://www.rust-lang.org/tools/install) and [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/) installed.*
 
 1. Add new method inside `/wasm-benchmark/rust-wasm/src/methods`. Note that `#[wasm_bindgen]` macro is mandatory.
 2. Make new code visible by adding proper export in `/wasm-benchmark/rust-wasm/src/methods/mod.rs`.
